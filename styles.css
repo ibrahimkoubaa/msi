@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+
+body {
+    max-width: 1920px;
+    background-color: #ECECEC;
+    margin: 0px auto;
+}
+.center {
+    max-width: 1400px;
+    margin: 0px auto;
+    
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 15px 25px;
+    margin-right: 30px;
+}
+.menu {
+    display: flex;
+
+}
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item {
+    padding-right: 25px;
+}
+.image {
+    padding-right: 29px;
+}
+
+.icons-nav {
+    display: flex;
+    align-items: center;
+}
