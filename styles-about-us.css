@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.title-about {
+    padding-top: 24px;
+}
+
+.main-title-about {
+    padding: 20px 0;
+}
+
+.about-left {
+    display: flex;
+}
+
+.left-about {
+    color: #FFFFFF;
+    padding: 128px 221px 128px 50px;
+}
+
+.right-about-white {
+    color: #000000;
+    padding: 167px 92px 162px;  
+}
+
+.right-about-white-1 {
+    color: #000000;
+    padding: 167px 55px 162px;  
+}
+
+.left-about-1 {
+    color: #FFFFFF;
+    padding: 128px 300px 128px 50px; 
+}
+
+.left-about-2 {
+    color: #FFFFFF;
+    padding: 128px 337px 128px 50px;
+}
+
+.right-about {
+    padding: 96px 92px;
+}
+
+.title-about {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    padding-bottom: 32px;
+}
+
+.title-about-white {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    padding-bottom: 32px;
+}
+
+.para-about {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.5;
+    padding-bottom: 32px;
+}
+
+.para-about-white {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.5;
+    padding-bottom: 32px;
+}
+
+.white-bloc {
+    background-color: #ffffff;  
+}
+
+.black-bloc {
+    background-color: #000000;   
+}
+
+.gray-bloc {
+    background: #F5F7FF;
+    margin-top: 63px;
+    margin-bottom: 63px;
+    padding: 49px 199px 56px;
+}
+
+.quot-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.quot-text {
+    display: flex;
+}
+
+.quot-para {
+    padding-bottom: 7px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.quots {
+    padding-right: 26px;
+}
+
+.name-quot {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.quot-cta {
+    background-color: #ffffff;
+    color: #0156FF;
+    border: 2px solid ;
+    border-radius: 50px;
+    padding: 8px 26px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.point {
+    padding-right: 5px;
+}

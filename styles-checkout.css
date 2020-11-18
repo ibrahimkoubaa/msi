@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    max-width: 1920px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    max-width: 1400px;
+    margin: 0px auto; 
+}
+
+.title {
+    padding: 20px 0 43px 0;
+}
+.title-cta {
+    display: flex;
+    align-items: center;
+}
+.main-title {
+    padding-right: 15px;
+    padding-bottom: 0;
+}
+.cta-title {
+    padding: 10px 60px;
+    
+}
+.shop-address {
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding: 25px 0 32px 0;
+}
+.main-check{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 14px;
+}
+.input-head{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 210%;
+    padding-bottom: 8px;
+}
+.check-text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 210%;
+    color: #666666;
+    padding-bottom: 20px;
+}
+.input {
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    padding: 15px 410px 15px 5px;
+    margin-bottom: 11px;
+}
+.check-input-1 {
+    border-bottom: 1px solid #CCCCCC;
+    width:  567px;
+}
+.check-input-2{
+    padding-top: 22px;
+}
+.input-select {
+    padding-right: 440px;
+}
+.input-select-1 {
+    padding-right: 290px;
+}
+.cta-check{
+    padding: 10px 70px;
+}
