@@ -1,0 +1,80 @@
+.title-contact-us {
+    padding: 21px 0;
+}
+.main-title-contact {
+    padding-top: 19px;
+}
+.our-info {
+    padding: 31px 38px 74px;
+    background: #F5F9FF;
+    height: fit-content;
+    margin-left: 60px;
+    
+    
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+}
+.head-info{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.detail-info{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+.detail-info-colored{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #0156FF;
+}
+
+.group-info {
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.text-info {
+    display: grid;
+    padding-left: 18px;
+    
+}
+.text-own-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 21px;
+}
+.first-input {
+    padding-right: 30px;
+}
+.group-input {
+    display: flex;
+}
+.textarea {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 97%;
+    padding: 8px 10px;
+}
+.contact-us {
+    padding-bottom: 123px;
+}
+.cta-submit {
+    background: #0156FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-top: 16px;
+    
+}

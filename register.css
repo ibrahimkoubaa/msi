@@ -1,0 +1,56 @@
+.bloc-login {
+    display: flex;
+    justify-content: center;
+    column-gap: 34px;
+    padding-bottom: 58px;
+}
+.new-customer {
+    background: #F5F9FF;
+    padding: 37px 58px;
+    width: 564px;
+}
+.register-customer {
+    background: #F5F9FF;
+    padding: 37px 58px;
+    width: 564px;
+}
+.register-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    padding: 13px 0;
+    
+
+}
+.cta-sign {
+    background: #0156FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin: 19px 23px 19px 0;
+    
+}
+.group-sign {
+    display: flex;
+    align-items: center;
+}
+.input-email {
+    padding: 15px 315px 15px 5px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    margin-bottom: 11px;
+}
+.list-register {
+    padding-left: 10px;
+}
+.title-register {
+    padding: 21px 0;
+}
+.main-title-register {
+    padding-top: 19px;
+}

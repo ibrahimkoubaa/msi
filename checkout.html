@@ -3,8 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="styles-fq.css">
-            <link rel="stylesheet" href="styles-checkout.css">
+            <link rel="stylesheet" href="commun.css">
+            <link rel="stylesheet" href="checkout.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap" rel="stylesheet">
             <title>Msi</title>
@@ -42,98 +42,130 @@
                         <button class="cta-nav">Our Deals</button>
                     </div>
                     <div class="icons-nav">
-                        <div>
-                            <img class="image" src="images/search.png"/>
+                        <div class="search-icon" >
+                            <img src="images/search.png"/>
                         </div>
-                        <div>
-                            <img class="image" src="images/shop.png"/>
+                        <div class="shop-icon">
+                            <img src="images/shop.png"/>
                         </div>
-                        <div>
-                            <img class="image-1" src="images/profil-img.png"/>
+                        <div class="photo-profil">
+                            <img src="images/profil-img.png"/>
                         </div>
                     </div>
                 </nav>
             </header>
             <main class="center">
-                <div class="title">
-                    <div class="small-title"><span>Home  ›  Shopping Cart  ›  Checkout Process</span></div>
-                    <div class="title-cta">
-                        <h1 class="main-title">Checkout</h1>
-                        <button class="cta-title cta-nav">Sign In</button>
+                <div class="boxes">
+                    <div class="box-1">
+                        <div class="title">
+                        <div class="small-title"><span>Home  ›  Shopping Cart  ›  Checkout Process</span></div>
+                        <div class="title-cta">
+                            <h1 class="main-title">Checkout</h1>
+                            <button class="cta-title cta-nav">Sign In</button>
+                        </div>
+                    </div>
+                        <h4 class="main-check">Shipping Address</h4>
+                        <div class="shop-address">
+                            <div class="check-input-1">
+                                <h5 class="input-head">Email Address <span class="colored-start">*</span></h5>
+                                <input class="input" type="email"/>
+                                <p class="check-text">You can create an account after checkout.</p>
+                            </div>
+                            <div class="check-input-2">
+                                <h5 class="input-head">First Name <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Last Name <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Company <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Street Address <span class="colored-start">*</span></h5>
+                                <div><input class="input" type="text"/></div>
+                                <div><input class="input" type="text"/></div>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">City <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">State/Province <span class="colored-start">*</span></h5>
+                                <select class="input-select-1 input" name="province" required>
+                                      <option value="" selected disabled hidden>Please, select a region, state or province</option>
+                                      <option>Paris</option>
+                                      <option>Nais</option>
+                                      <option>Toulouz</option>
+                                </select>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Zip/Postal Code <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Country <span class="colored-start">*</span></h5>
+                                <select class="input-select input" name="country" required>
+                                      <option value="" selected disabled hidden>Select country</option>
+                                      <option value="USA">United States</option>
+                                      <option value="Fr">France</option>
+                                      <option value="UK">United Kingdom</option>
+                                </select>
+                            </div>
+                            <div class="check-input">
+                                <h5 class="input-head">Phone Number <span class="colored-start">*</span></h5>
+                                <input class="input" type="text"/>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="input-head">Standard Rate</h4>
+                            <div class="radio-group">
+                                <input class="radio" type="radio" checked/>
+                                <p class="radio-para">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</p>
+                                <span class="price">$21.00</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="input-head">Pickup from store</h4>
+                            <div class="radio-group-1">
+                                <input class="radio" type="radio"/>
+                                <p class="radio-para-1">1234 Street Adress City Address, 1234</p>
+                                <span class="price">$0.00</span>
+                            </div>
+                        </div>
+                        <button class="cta-footer cta-check">Next</button>
+                    </div>
+                    <div class="box-2">
+                        <div class="image-shop"><img src="images/img-radio.png"/></div>
+                        <div class="shopping">
+                            <h3 class="title-shop">Order Summary</h3>
+                            <div class="group-head">
+                                <span class="head-shop">2 Items in Cart</span>
+                                <img src="images/arrow-black-up.png"/>
+                            </div>
+                            <div class="group-shop">
+                                <img src="images/shop-desk.png"/>
+                                <div class="group-para">
+                                    <p class="shop-para">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER...</p>
+                                    <span class="qty">Qty</span>
+                                    <span class="qty-n"> 1</span>
+                                    <span class="qty-n">$3,799.00</span>
+                                </div>
+                            </div>
+                            <div class="group-shop">
+                                <img src="images/shop-lap.png"/>
+                                <div class="group-para">
+                                    <p class="shop-para">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER....</p>
+                                    <span class="qty">Qty</span>
+                                    <span class="qty-n"> 1</span>
+                                    <span class="price-dollar">$3,799.00</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h4 class="main-check">Shipping Address</h4>
-                <div class="shop-address">
-                    <div class="check-input-1">
-                        <h5 class="input-head">Email Address *</h5>
-                        <input class="input" type="email"/>
-                        <p class="check-text">You can create an account after checkout.</p>
-                    </div>
-                    <div class="check-input-2">
-                        <h5 class="input-head">First Name *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Last Name *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Company *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Street Address *</h5>
-                        <div><input class="input" type="text"/></div>
-                        <div><input class="input" type="text"/></div>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">City *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">State/Province *</h5>
-                        <select class="input-select-1 input" name="province" required>
-                              <option value="" selected disabled hidden>Please, select a region, state or province</option>
-                              <option>Paris</option>
-                              <option>Nais</option>
-                              <option>Toulouz</option>
-                        </select>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Zip/Postal Code *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Country *</h5>
-                        <select class="input-select input" name="country" required>
-                              <option value="" selected disabled hidden>Select country</option>
-                              <option value="USA">United States</option>
-                              <option value="Fr">France</option>
-                              <option value="UK">United Kingdom</option>
-                        </select>
-                    </div>
-                    <div class="check-input">
-                        <h5 class="input-head">Phone Number *</h5>
-                        <input class="input" type="text"/>
-                    </div>
-                </div>
-                <div>
-                    <h4>Standard Rate</h4>
-                    <div>
-                        <input type="radio" checked/>
-                        <p>Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</p>
-                        <span>$21.00</span>
-                    </div>
-                </div>
-                <div>
-                    <h4>Pickup from store</h4>
-                    <div>
-                        <input type="radio"/>
-                        <p>1234 Street Adress City Address, 1234</p>
-                        <span>$0.00</span>
-                    </div>
-                </div>
-                <div><button class="cta-footer cta-check">Next</button></div>
             </main>        
         </body>
         <footer>
