@@ -4,7 +4,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="commun.css">
-            <link rel="stylesheet" href="home.css">
+            <link rel="stylesheet" href="index.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap" rel="stylesheet">
             <title>MSI</title>
@@ -13,25 +13,26 @@
             <header class="header">
                 <div class="up-header">
                     <div class="center adress-bar">
-                        <div>
+                        <div class="date">
                             <span class="time"><span class="days">Mon-Thu:</span>  9:00 AM - 5:30 PM</span>
                             <img class="arrow-white-down" src="images/arrow-white-down.png"/>
                         </div>
-                        <span class="adress">Visit our showroom in 1234 Street Adress City Address, 1234  <span class="contact">Contact Us</span></span>
+                        <span class="adress">Visit our showroom in 1234 Street Adress City Address, 1234  <a href="contact-us.html"><span class="contact">Contact Us</span></a></span>
                         <div class="left-black">
                             <span class="call-black">Call Us: (00) 1234 5678</span>
-                            <div><img class="face-white" src="images/face-white.png"/></div>
-                            <div><img class="instagram-white" src="images/instagram-white.png"/></div>
+                            <a href="https://www.facebook.com/" target="_blank" alt="Facebook"><img class="face-white" src="images/face-white.png"/></a>   
+                            <a href="https://www.instagram.com/" target="_blank" alt="Instagram"><img class="instagram-white" src="images/instagram-white.png"/></a> 
                         </div>
+                        
                     </div>
                 </div>
                 <nav class="navigation center">
                     <div class="menu">
                         <div class="logo">
-                            <img src="images/msi-logo.png"/>
+                            <a href="index.html"><img src="images/msi-logo.png"/></a>
                         </div>
                         <ul class="list">
-                            <li class="item">Laptops</li>
+                            <a class="link-color" target="_blank" href="list-view.html"><li class="item">Laptops</li></a>
                             <li class="item">Desktop PCs</li>
                             <li class="item">Networking Devices</li>
                             <li class="item">Printers & Scanners</li>
@@ -46,10 +47,10 @@
                             <img src="images/search.png"/>
                         </div>
                         <div class="shop-icon">
-                            <img src="images/shop.png"/>
+                            <a href="shopping.html"><img src="images/shop.png"/></a>
                         </div>
                         <div class="photo-profil">
-                            <img src="images/profil-img.png"/>
+                            <a href="user-account.html"><img src="images/profil-img.png"/></a>
                         </div>
                     </div>
                 </nav>
@@ -59,41 +60,44 @@
                     <div class="slider over">
                         <img src="images/slider-left.png"/>
                     </div>
-                    <div class="head-view"><img src="images/home.png"/></div>
+                    <div><img class="head-view" src="images/home.png"/></div>
                     <div class="slider over-right">
                         <img src="images/slider-right.png"/>
                     </div>
                 </div>
                 <div class="head-new">
                     <span class="head-new-1">New Products</span>
-                    <span class="head-new-2">See All New Products</span>
+                    <a class="link-color" href="list-view.html" target="_blank"><span class="head-new-2">See All New Products</span></a>
                 </div>
                 <div class="prouducts">
                     <div class="slider">
                         <img src="images/slider-left.png"/>
                     </div>
-                    <div class="line-product-1">
-                        <div>
-                            <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
+                    <a class="link-color" target="_blank" href="product-page.html">
+                        <div class="line-product-1">
+                            <div>
+                                <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
+                            </div>
+                            <div class="product-img"><img src="images/line-11.png"></div>
+                            <div>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/star-gold.png"/>
+                                <span class="reviews">Reviews (4)</span>
+                            </div>
+                            <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
+                            <h3 class="old-price">$499.00</h3>
+                            <h3 class="new-price">$499.00</h3>
                         </div>
-                        <div><img src="images/line-11.png"></div>
-                        <div>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/star-gold.png"/>
-                            <span class="reviews">Reviews (4)</span>
-                        </div>
-                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
-                        <h3 class="old-price">$499.00</h3>
-                        <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
+                    </a>
+                    <a class="link-color" target="_blank" href="product-page.html">
+                        <div class="line-product">
                         <div>
                             <div><img src="images/check.png "/><span class="check-availability">check availability</span></div>
                         </div>
-                        <div><img src="images/line-12.png"></div>
+                        <div class="product-img"><img src="images/line-12.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -105,12 +109,14 @@
                         <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
                         <h3 class="old-price">$499.00</h3>
                         <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
+                        </div>
+                    </a>
+                    <a class="link-color" target="_blank" href="product-page.html">
+                        <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-13.png"></div>
+                        <div class="product-img"><img src="images/line-13.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -122,12 +128,14 @@
                         <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
                         <h3 class="old-price">$499.00</h3>
                         <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
+                        </div>
+                    </a>
+                    <a class="link-color" target="_blank" href="product-page.html">           
+                        <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-14.png"></div>
+                        <div class="product-img"><img src="images/line-14.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -139,12 +147,14 @@
                         <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
                         <h3 class="old-price">$499.00</h3>
                         <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
+                        </div>
+                    </a>
+                    <a class="link-color" target="_blank" href="product-page.html">
+                        <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-15.png"></div>
+                        <div class="product-img"><img src="images/line-15.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -156,24 +166,27 @@
                         <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
                         <h3 class="old-price">$499.00</h3>
                         <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product-2">
-                        <div>
-                            <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-15.png"></div>
-                        <div>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/star-gold.png"/>
-                            <span class="reviews">Reviews (4)</span>
+                    </a>
+                    <a class="link-color" target="_blank" href="product-page.html">
+                        <div class="line-product-2">
+                            <div>
+                                <div><img src="images/in stock.png"/><span class="instock">in stock</span></div>
+                            </div>
+                            <div class="product-img"><img src="images/line-15.png"></div>
+                            <div>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/gold-star.png"/>
+                                <img src="images/star-gold.png"/>
+                                <span class="reviews">Reviews (4)</span>
+                            </div>
+                            <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
+                            <h3 class="old-price">$499.00</h3>
+                            <h3 class="new-price">$499.00</h3>
                         </div>
-                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
-                        <h3 class="old-price">$499.00</h3>
-                        <h3 class="new-price">$499.00</h3>
-                    </div>
+                    </a>
                     <div class="slider">
                         <img src="images/slider-right.png"/>
                     </div>
@@ -183,12 +196,12 @@
                     <p class="text-half"><span class="own">own</span> it now, up to 6 months interest free <span class="learn-zip">learn more</span></p>
                 </div>
                 <div class="product-line-2">
-                    <div class="image-side"><img src="images/side-home-1.png"/><div class="over-slide"><p>Custome Builds</p></div><div class="over-slid"><p>See All Products</p></div></div>
+                    <div class="image-side"><img src="images/side-home-1.png"/><div class="over-slide"><p>Custome Builds</p></div><div class="over-slid"><a class="link-see" href="list-view.html" target="_blank"><p>See All Products</p></a></div></div>
                     <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-21.png"></div>
+                        <div class="product-img"><img src="images/line-21.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -205,7 +218,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-22.png"></div>
+                        <div class="product-img"><img src="images/line-22.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -222,7 +235,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-23.png"></div>
+                        <div class="product-img"><img src="images/line-23.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -239,7 +252,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-24.png"></div>
+                        <div class="product-img"><img src="images/line-24.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -256,7 +269,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-25.png"></div>
+                        <div class="product-img"><img src="images/line-25.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -272,12 +285,12 @@
                 </div>
                 <div class="category"><span class="category-bold">MSI GS Series</span><span class="category-soft">MSI GT Series</span><span class="category-soft">MSI GL Series</span><span class="category-soft">MSI GE Series</span></div>
                 <div class="product-line-2">
-                    <div class="image-side"><img src="images/side-home-2.png"/><div class="over-slide"><p>MSI Laptops</p></div><div class="over-slid"><p>See All Products</p></div></div>
+                    <div class="image-side"><img src="images/side-home-2.png"/><div class="over-slide"><p>MSI Laptops</p></div><div class="over-slid"><a class="link-see" href="list-view.html" target="_blank"><p>See All Products</p></a></div></div>
                     <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-31.png"></div>
+                        <div class="product-img"><img src="images/line-31.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -294,24 +307,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-32.png"></div>
-                        <div>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/star-gold.png"/>
-                            <span>Reviews (4)</span>
-                        </div>
-                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
-                        <h3 class="old-price">$499.00</h3>
-                        <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
-                        <div>
-                            <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
-                        </div>
-                        <div><img src="images/line-33.png"></div>
+                        <div class="product-img"><img src="images/line-32.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -328,7 +324,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-34.png"></div>
+                        <div class="product-img"><img src="images/line-33.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -345,7 +341,24 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-35.png"></div>
+                        <div class="product-img"><img src="images/line-34.png"></div>
+                        <div>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/star-gold.png"/>
+                            <span class="reviews">Reviews (4)</span>
+                        </div>
+                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
+                        <h3 class="old-price">$499.00</h3>
+                        <h3 class="new-price">$499.00</h3>
+                    </div>
+                    <div class="line-product">
+                        <div>
+                            <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
+                        </div>
+                        <div class="product-img"><img src="images/line-35.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -361,12 +374,12 @@
                 </div>
                 <div class="category"><span class="category-bold">MSI Infinute Series</span><span class="category-soft">MSI Triden</span><span class="category-soft">MSI GL Series</span><span class="category-soft">MSI Nightblade</span></div>
                 <div class="product-line-2">
-                    <div class="image-side"><img src="images/side-home-3.png"/><div class="over-slide"><p>Desktops</p></div><div class="over-slid"><p>See All Products</p></div></div>
+                    <div class="image-side"><img src="images/side-home-3.png"/><div class="over-slide"><p>Desktops</p></div><div class="over-slid"><a class="link-see" href="list-view.html" target="_blank"><p>See All Products</p></a></div></div>
                     <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-41.png"></div>
+                        <div class="product-img"><img src="images/line-41.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -383,24 +396,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-42.png"></div>
-                        <div>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/gold-star.png"/>
-                            <img src="images/star-gold.png"/>
-                            <span>Reviews (4)</span>
-                        </div>
-                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
-                        <h3 class="old-price">$499.00</h3>
-                        <h3 class="new-price">$499.00</h3>
-                    </div>
-                    <div class="line-product">
-                        <div>
-                            <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
-                        </div>
-                        <div><img src="images/line-43.png"></div>
+                        <div class="product-img"><img src="images/line-42.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -417,7 +413,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-44.png"></div>
+                        <div class="product-img"><img src="images/line-43.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -434,7 +430,24 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-45.png"></div>
+                        <div class="product-img"><img src="images/line-44.png"></div>
+                        <div>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/gold-star.png"/>
+                            <img src="images/star-gold.png"/>
+                            <span class="reviews">Reviews (4)</span>
+                        </div>
+                        <div class="text-product"><p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></div>
+                        <h3 class="old-price">$499.00</h3>
+                        <h3 class="new-price">$499.00</h3>
+                    </div>
+                    <div class="line-product">
+                        <div>
+                            <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
+                        </div>
+                        <div class="product-img"><img src="images/line-45.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -449,12 +462,12 @@
                     </div>
                 </div>
                 <div class="product-line-2">
-                    <div class="image-side"><img src="images/side-home-4.png"/><div class="over-slide"><p>Gaming Monitors</p></div><div class="over-slid"><p>See All Products</p></div></div>
+                    <div class="image-side"><img src="images/side-home-4.png"/><div class="over-slide"><p>Gaming Monitors</p></div><div class="over-slid"><a class="link-see" href="list-view.html" target="_blank"><p>See All Products</p></a></div></div>
                     <div class="line-product">
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-51.png"></div>
+                        <div class="product-img"><img src="images/line-51.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -471,7 +484,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-52.png"></div>
+                        <div class="product-img"><img src="images/line-52.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -488,7 +501,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-53.png"></div>
+                        <div class="product-img"><img src="images/line-53.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -505,7 +518,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-54.png"></div>
+                        <div class="product-img"><img src="images/line-54.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -522,7 +535,7 @@
                         <div>
                             <div><img src="images/in stock.png "/><span class="instock">in stock</span></div>
                         </div>
-                        <div><img src="images/line-55.png"></div>
+                        <div class="product-img"><img src="images/line-55.png"></div>
                         <div>
                             <img src="images/gold-star.png"/>
                             <img src="images/gold-star.png"/>
@@ -537,8 +550,8 @@
                     </div>
                 </div>
                 <div class="logos-home">
-                    <img class="logo-home" src="images/home-logo1.png"/>
-                    <img class="logo-home" src="images/home-logo2.png"/>
+                    <a href="https://fr.roccat.org/" target="_blank"><img class="logo-home" src="images/home-logo1.png"/></a>
+                    <a href="https://fr.msi.com/" target="_blank"><img class="logo-home" src="images/home-logo2.png"/></a>
                     <img class="logo-home" src="images/home-logo3.png"/>
                     <img class="logo-home" src="images/home-logo4.png"/>
                     <img class="logo-home" src="images/home-logo5.png"/>
@@ -602,7 +615,7 @@
                     </div>
                     <div class="name-quot"><p>- Tama Brown</p></div>
                     <div class="bloc-button">
-                        <button class="cta-quot">Leave Us A Review</button>
+                        <a href="contact-us.html" target="_blank"><button class="cta-quot">Leave Us A Review</button></a>
                         <div>
                             <img src="images/bleu-point.png"/>
                             <img src="images/gray-point.png"/>
@@ -613,54 +626,56 @@
                     </div>
                 </div>
             </main>        
-        </body>   
-                <div class="gray-footer">
-                    <div class="cards-footer center">
-                        <div class="card-footer">
-                            <div><img class="image-card" src="images/support.png"/></div>
-                            <h4 class="item-card">Product Support</h4>
-                            <div class="desc-card"><p class="para-card">Up to 3 years on-site warranty available for your peace of mind.</p></div>
-                        </div>
-                        <div class="card-footer">
-                            <div><img class="image-card" src="images/account.png"/></div>
-                            <h4 class="item-card">Personal Account</h4>
-                            <div class="desc-card"><p class="para-card">With big discounts, free delivery and a dedicated support specialist.</p></div>
-                        </div>
-                        <div class="card-footer">
-                            <div><img class="image-card" src="images/saving.png"/></div>
-                            <p class="item-card">Amazing Savings</p>
-                            <div class="desc-card"><p class="para-card">Up to 70% off new Products, you can be sure of the best price.</p></div>
-                        </div>
+        </body>
+        <footer>  
+            <div class="gray-footer white">
+                <div class="cards-footer center">
+                    <div class="card-footer">
+                        <div><img class="image-card" src="images/support.png"/></div>
+                        <h4 class="item-card">Product Support</h4>
+                        <div class="desc-card"><p class="para-card">Up to 3 years on-site warranty available for your peace of mind.</p></div>
+                    </div>
+                    <div class="card-footer">
+                        <div><img class="image-card" src="images/account.png"/></div>
+                        <h4 class="item-card">Personal Account</h4>
+                        <div class="desc-card"><p class="para-card">With big discounts, free delivery and a dedicated support specialist.</p></div>
+                    </div>
+                    <div class="card-footer">
+                        <div><img class="image-card" src="images/saving.png"/></div>
+                        <p class="item-card">Amazing Savings</p>
+                        <div class="desc-card"><p class="para-card">Up to 70% off new Products, you can be sure of the best price.</p></div>
                     </div>
                 </div>
-                <div class="black-footer">
-                    <div class="center menu-footer">
-                        <div class="left-up">
-                            <h3 class="footer-title">Sign Up To Our Newsletter.</h3>
-                            <p class="para-footer">Be the first to hear about the latest offers.</p>
-                        </div>
-                        <div class="right-up">
-                            <input class="input-footer" type="email" placeholder="Your Email" />
-                            <button class="cta-footer">Subscribe</button>
-                        </div>
+            </div>
+            <div class="black-footer">
+                <div class="center menu-footer">
+                    <div class="left-up">
+                        <h3 class="footer-title">Sign Up To Our Newsletter.</h3>
+                        <p class="para-footer">Be the first to hear about the latest offers.</p>
                     </div>
-                    <div class="center down-footer">
-                        <div>
-                            <h5 class="title-down">Information</h5>
-                            <ul class="list-down">
-                                <li class="item-down">About Us</li>
-                                <li class="item-down">About Zip</li>
-                                <li class="item-down">Privacy Policy</li>
-                                <li class="item-down">Search Terms</li>
-                                <li class="item-down">Orders and Returns</li>
-                                <li class="item-down">Contact Us</li>
-                                <li class="item-down">Advanced</li>
-                                <li class="item-down">Search Newsletter</li>
-                                <li class="item-down">Subscription</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h5 class="title-down">PC Parts</h5>
+                    <div class="right-up">
+                        <input class="input-footer" type="email" placeholder="Your Email" />
+                        <a href="checkout.html" target="_blank"><button class="cta-footer">Subscribe</button></a>
+                    </div>
+                </div>
+                <div class="center down-footer">
+                    <div>
+                        <h5 class="title-down">Information</h5>
+                        <ul class="list-down">
+                            <a class="link-see-1" href="about-us.html" target="_blank"><li class="item-down">About Us</li></a>
+                            <li class="item-down">About Zip</li>
+                            <a class="link-see-1" href="fq.html" target="_blank"><li class="item-down">Privacy Policy</li></a>
+                            <li class="item-down">Search Terms</li>
+                            <li class="item-down">Orders and Returns</li>
+                            <a class="link-see-1" href="contact-us.html" target="_blank" ><li class="item-down">Contact Us</li></a>
+                            <li class="item-down">Advanced</li>
+                            <li class="item-down">Search Newsletter</li>
+                            <li class="item-down">Subscription</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="title-down">PC Parts</h5>
+                        <a href="index.html" target="_blank" class="link-see-1">
                             <ul class="list-down">
                                 <li class="item-down">CPUS</li>
                                 <li class="item-down">Add On Cards</li>
@@ -673,9 +688,11 @@
                                 <li class="item-down">Speakers / Headsets</li>
                                 <li class="item-down">Motherboards</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h5 class="title-down">Desktop PCs</h5>
+                        </a>
+                    </div>
+                    <div>
+                        <h5 class="title-down">Desktop PCs</h5>
+                        <a href="index.html" target="_blank" class="link-see-1">
                             <ul class="list-down">
                                 <li class="item-down">Custom PCs</li>
                                 <li class="item-down">Servers MSI</li>
@@ -684,9 +701,11 @@
                                 <li class="item-down">ASUS PCs</li>
                                 <li class="item-down">Tecs PCs</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h5 class="title-down">Laptops</h5>
+                        </a>
+                    </div>
+                    <div>
+                        <h5 class="title-down">Laptops</h5>
+                        <a href="index.html" target="_blank" class="link-see-1">
                             <ul class="list-down">
                                 <li class="item-down">Evryday Use Notebooks</li>
                                 <li class="item-down">MSI Workstation Series</li>
@@ -695,9 +714,11 @@
                                 <li class="item-down">Netbooks</li>
                                 <li class="item-down">Infinity Gaming Notebooks</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h5 class="title-down">Address</h5>
+                        </a>
+                    </div>
+                    <div>
+                        <h5 class="title-down">Address</h5>
+                        <a href="contact-us.html" target="_blank" class="link-see-1">
                             <ul class="list-down">
                                 <li class="item-down">Address: 1234 Street Adress City Address, 1234</li>
                                 <li class="item-down">Phones: <span class="colored">(00) 1234 5678</span></li>
@@ -706,24 +727,25 @@
                                 <li class="item-down">Saturday: 11:00 AM - 5:00 PM</li>
                                 <li class="item-down">E-mail:<span class="colored"> shop@email.com</span></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="under-footer center">
-                        <div>
-                            <img src="images/facebook-filled.png"/>
-                            <img src="images/instagram-filled.png"/>
-                        </div>
-                        <div>
-                            <img src="images/paypal.png"/>
-                            <img src="images/visa.png"/>
-                            <img src="images/maestro.png"/>
-                            <img src="images/discover.png"/>
-                            <img src="images/american-express.png"/>
-                        </div>
-                        <div class="copyright">
-                            <span>Copyright © 2020 Shop Pty. Ltd.</span>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </footer>
+                <div class="under-footer center">
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-filled.png"/></a>
+                        <a href="https://www.instagram.com/" target="_blank" alt="Instagram"><img src="images/instagram-filled.png"/></a>
+                    </div>
+                    <div class="banks">
+                        <a href="https://www.paypal.com/"><img src="images/paypal.png"/></a>
+                        <a href="https://usa.visa.com/"><img src="images/visa.png"/></a>
+                        <a href="https://www.mastercard.ca/"><img src="images/maestro.png"/></a>
+                        <img src="images/discover.png"/>
+                        <img src="images/american-express.png"/>
+                    </div>
+                    <div class="copyright">
+                        <span>Copyright © 2020 Shop Pty. Ltd.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </html>

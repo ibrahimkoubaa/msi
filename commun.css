@@ -4,6 +4,23 @@
     margin: 0;
    
 }
+.link-color:visited {
+    color: #000000;
+    
+}
+.link-see:visited {
+    color: #ffffff;
+}
+
+.link-color:link {
+    text-decoration: none;
+}
+.link-see-1:link {
+    text-decoration: none;
+}
+.link-see-1:visited {
+    color :#8C8C8C;
+ }
 
 body {
     max-width: 1920px;
@@ -11,7 +28,13 @@ body {
     margin: 0px auto;
     font-family: 'Poppins', sans-serif;
 }
-
+.group-about {
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
 .center {
     max-width: 1400px;
     margin: 0px auto; 
@@ -57,6 +80,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .arrow-white-down {
     padding-left: 8px;
 }
@@ -85,7 +109,7 @@ body {
 
 .logo {
     
-    margin-right: 56px;
+    margin: 0 56px 0 25px;
 }
 
 .menu {
@@ -107,6 +131,11 @@ body {
     padding-left: 16px;
 }
 
+.date {  
+    display: flex;
+    align-items: center;
+}
+
 .item {
     padding-right: 25px;
 }
@@ -119,16 +148,28 @@ body {
     display: flex;
     align-items: center;
 }
+
+.title-about {
+    padding-top: 24px;
+}
+
+.main-title-about {
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
 .main {
     display: flex;
     color: #000000;
-    
-    
 }
 
 .gray-footer{
     background: #F5F7FF;
 }
+
 .cards-footer {
     display: flex;
     justify-content: center;
@@ -136,53 +177,61 @@ body {
     padding: 63px 45px;
 }
 
-
-
 .image-card{
     padding-bottom: 26px;
 }
+
 .item-card{
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
 }
+
 .para-card{
     font-size: 14px;
     line-height: 20px;
     opacity: 0.5;
     width: 55%;
 }
+
 .desc-card {
     display: flex;
     justify-content: center;
 }
+
 .item-card {
     padding-bottom: 13px;
 }
+
 .black-footer {
     background-color: #000000;
 }
-.footer-title{
+
+.footer-title {
     font-weight: 500;
     font-size: 38px;
     line-height: 133%;
     color: #FFFFFF;
     padding-bottom: 9px;
 }
-.para-footer{
+
+.para-footer {
     font-weight: 300;
     font-size: 16px;
     line-height: 133%;
     color: rgba(255, 255, 255, 0.5);
 }
-.left-up{
+
+.left-up {
     padding: 47px 0;
     flex: 1;
 }
-.right-up{
+
+.right-up {
     
     padding: 72px 0;
 }
+
 .input-footer {
     background: #000000;
     border: 2px solid #FFFFFF;
@@ -191,13 +240,16 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    padding: 20px 297px 20px 7px;
-}
+    padding: 20px 0 20px 7px;
+    width: 390px;
+}  
+
 .menu-footer {
     display: flex;
     
 }
-.cta-footer{
+
+.cta-footer {
     background: #0156FF;
     border-radius: 50px;
     margin-left: 23px;
@@ -209,38 +261,77 @@ body {
     line-height: 21px;
     cursor: pointer;
 }
-.down-footer{
+
+.down-footer {
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffffab;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     padding-bottom: 36px;
     column-gap: 70px;
     
 }
+
 .title-down {
     font-weight: bold;
     font-size: 18px;
     line-height: 100%;
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 20px;
-}
+} 
+
 .list-down {
     list-style: none;
-    color: rgba(255, 255, 255, 0.6);
+    color :#8C8C8C;
     
 }
- .item-down{
+
+ .item-down {
      padding-bottom: 8px;
 }
-.colored{
-    color: dodgerblue;
+
+.colored {
+    color: rgb(14, 95, 177);
 }
 
-.under-footer{
+.under-footer {
     display: flex;
     justify-content: space-between;
     padding: 17px 0;
     color: rgba(255, 255, 255, 0.6);
     
+} 
+.input {
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    padding: 15px 0 15px 5px;
+    margin-bottom: 11px;
+    width: 565px;
 }
+.input-right {
+    padding: 15px 0 15px 5px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    margin-bottom: 11px;
+    width: 449px;
+}
+.input-email {
+    padding: 15px 0 15px 5px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    width: 449px;
+    margin-bottom: 11px;
+}
+.item-down:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.banks {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+::placeholder {
+    color: #ffffff;
+  }

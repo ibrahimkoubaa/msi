@@ -39,12 +39,7 @@
     display: flex;
     align-items: center;
 }
-.input-email {
-    padding: 15px 315px 15px 5px;
-    border: 1px solid #8C8C8C;
-    border-radius: 4px;
-    margin-bottom: 11px;
-}
+
 .list-register {
     padding-left: 10px;
 }

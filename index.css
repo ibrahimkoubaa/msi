@@ -1,40 +1,36 @@
-.line-product {
-    width: 235px;
-    padding: 7px 23px 20px 23px;
-}
-.line-product-1 {
-    width: 235px;
-    padding: 7px 23px 20px 0
-}
-.line-product-2{
-    width: 235px;
-    padding: 7px 0 20px 23px;}
-
 .slider{
     align-self: center;
 }
-
-.head-new {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
+.head-view {
+    width: 100%;
 }
+
 .head-new {
     display: flex;
     justify-content: space-between;
-    padding: 37px 0 14px;
+    padding: 45px 0 21px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    align-items: center;
 }
 .head-new-2{
     font-size: 13px;
     line-height: 115%;
     text-decoration-line: underline;
 }
+.white {
+    background-color: #FFFFFF;
+}
 .text-product {
-    padding: 15px 0;
+    padding: 7px 35px 7px 0;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 19px;
+}
+.product-img {
+    padding: 7px 0 10px;
 }
 .old-price {
     font-weight: normal;
@@ -93,6 +89,7 @@
 }
 .product-line-2 {
     display: flex;
+    padding-bottom: 31px;
 }
 .category-bold {
     font-style: normal;
@@ -100,8 +97,7 @@
     font-size: 16px;
     line-height: 140%;
     padding-right: 26px;
-    text-decoration:  ;
-    text-decoration: underline #00AEB8;
+    text-decoration: underline #0156FF;
 }
 .category-soft{
     font-weight: 600;
@@ -111,13 +107,13 @@
     padding-right: 26px;
 }
 .category {
-    padding: 36px 0 24px 0;
+    padding: 6px 0 24px 0;
 }
 .over-slide{
     position: absolute;
     top: 125px;
-    right: 53px;
-    left: 75px;
+    right: 68px;
+    left: 70px;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -127,8 +123,8 @@
 }
 .over-slid {
     position: absolute;
-    top: 271px;
-    left: 76px;
+    top: 291px;
+    left: 73px;
     font-weight: normal;
     font-size: 13px;
     line-height: 115%;
@@ -137,6 +133,7 @@
 }
 .image-side {
     position: relative;
+    padding-right: 25px;
 }
 .view {
     max-width: 100%;
@@ -158,10 +155,9 @@
     right: 2px;
 }
 .logos-home {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 31px 0 42px;
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    padding-bottom: 42px;
 }
 .logo-home {
     padding: 35px 24px;
@@ -175,7 +171,6 @@
     padding-bottom: 21px;
 }
 .card-follow {
-    width: 235px;
     padding: 0 11px 20px 0;
 }
 .text-card {
@@ -219,9 +214,9 @@
     padding: 8px 26px;
     border: 2px solid #0156FF;
     border-radius: 50px;
-
-
+    cursor: pointer;
 }
+
 .name-quot {
     text-align: right;
     padding: 7px 0 33px;

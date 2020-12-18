@@ -219,7 +219,7 @@
     padding-top: 106px;
 }
 .help {
-    
+    background: linear-gradient(90deg, rgba(225,229,244,1) 0%, rgba(255,255,255,1) 49%, rgba(245,247,255,1) 100%);
     display: flex;
     justify-content: center;
 }
