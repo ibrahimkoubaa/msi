@@ -88,6 +88,7 @@
 .bloc-shopping {
     background: #F5F7FF;
     padding: 24px 30px;
+    width: 446px;
 }
 .title-shopping{
     font-weight: 600;
@@ -124,7 +125,7 @@
     color: #0156FF;
     border: 2px solid;
     border-radius: 50px;
-    padding: 16px 140px;
+    padding: 16px 139px;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
@@ -154,7 +155,7 @@
     color: #F5F7FF;
     border: 2px solid;
     border-radius: 50px;
-    padding: 16px 140px;
+    padding: 16px 120px;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
@@ -167,7 +168,7 @@
     color: #232C65;
     border: 2px solid;
     border-radius: 50px;
-    padding: 13px 116px;
+    padding: 13px 96px;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
@@ -186,7 +187,7 @@
     color: #666666;
     border: 2px solid;
     border-radius: 50px;
-    padding: 13px 92px;
+    padding: 13px 74px;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
