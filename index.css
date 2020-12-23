@@ -1,8 +1,8 @@
-.slider {
+.side-left {
     position: relative;
-}   
+}
 
-.slider-2 {
+.side-right {
     position: relative;
 }
 
@@ -11,18 +11,17 @@
     position: relative;
 }
 
-.absolute {
+.arrow-side-right {
     max-width: none;
     position: absolute;
     bottom: 120px;
 }
- 
-.absolute-2 {
+
+.arrow-side-left {
     max-width: none;
     position: absolute;
     bottom: 120px;
     right: 2px;
-    
 }
 
 .head-new {
@@ -32,16 +31,14 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    
 }
 
-.head-new-2{
+.title-product-2 {
     font-size: 13px;
     line-height: 115%;
     text-decoration-line: underline;
     font-style: normal;
     font-weight: normal;
-
 }
 
 .white {
@@ -60,7 +57,6 @@
     padding: 7px 0 10px;
     display: flex;
     justify-content: center;
-    
 }
 
 .old-price {
@@ -70,7 +66,7 @@
     text-decoration-line: line-through;
     font-style: normal;
     color: #666666;
-} 
+}
 
 .new-price {
     padding: 10px 0;
@@ -78,29 +74,31 @@
     color: #000000;
     font-style: normal;
 }
-.avilable{
+
+.avilable {
     display: flex;
     align-items: center;
-
 }
+
 .instock {
     font-size: 10px;
     line-height: 210%;
     color: #78A962;
     padding-left: 6px;
-    
 }
-.prouducts {
+
+.products {
     display: flex;
     padding-bottom: 18px;
-
 }
+
 .check-availability {
     font-size: 10px;
     line-height: 210%;
     color: #C94D3F;
     padding-left: 6px;
 }
+
 .half {
     display: flex;
     justify-content: center;
@@ -108,27 +106,31 @@
     background: #F5F7FF;
     margin-bottom: 14px;
 }
+
 .zip {
     margin-right: 14px;
-
 }
+
 .text-half {
     font-weight: normal;
     font-size: 18px;
     line-height: 120.5%;
     color: #272560;
-
 }
+
 .own {
     font-weight: bold;
 }
-.learn-zip{
-    text-decoration-line: underline ;
+
+.learn-zip {
+    text-decoration-line: underline;
 }
+
 .product-line-2 {
     display: flex;
     padding-bottom: 31px;
 }
+
 .category-bold {
     font-style: normal;
     font-weight: 600;
@@ -137,9 +139,11 @@
     padding-right: 26px;
     text-decoration: underline #0156FF;
 }
+
 .line-product {
     padding: 7px 27px 14px;
 }
+
 .category-soft {
     font-weight: 600;
     font-size: 16px;
@@ -161,7 +165,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 130%;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -175,14 +179,16 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
 .image-side {
     position: relative;
-    
 }
+
 .view {
     max-width: 100%;
     position: relative;
 }
+
 .reviews {
     font-style: normal;
     font-weight: normal;
@@ -193,12 +199,14 @@
 
 .logos-home {
     display: grid;
-    grid-template-columns: repeat(7 ,1fr);
+    grid-template-columns: repeat(7, 1fr);
     padding-bottom: 42px;
 }
+
 .logo-home {
     padding: 35px 24px;
 }
+
 .title-home {
     font-style: normal;
     font-weight: 600;
@@ -207,9 +215,11 @@
     color: #000000;
     padding-bottom: 21px;
 }
+
 .card-follow {
     padding: 0 11px 20px 0;
 }
+
 .text-card {
     font-style: normal;
     font-weight: normal;
@@ -219,12 +229,13 @@
     text-align: center;
     padding: 10px 0;
 }
+
 .cards {
     display: grid;
-    grid-template-columns: repeat(6 ,1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding-bottom: 37px;
-    
 }
+
 .date-card {
     text-align: center;
     font-style: normal;
@@ -233,15 +244,25 @@
     line-height: 15px;
     color: #8C8C8C;
 }
+
 .quot-home {
     background: #F5F7FF;
     padding: 49px 119px;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.point-quot {
+    column-gap: 10px;
+    display: flex;
+}
+
 .bloc-button {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 .cta-quot {
     font-weight: 600;
     font-size: 14px;
@@ -253,34 +274,39 @@
     cursor: pointer;
     background: transparent;
 }
+
 .position-img {
     position: absolute;
     bottom: 121px;
 }
-.position-img-1 {
+
+.position-img-top {
     position: absolute;
     right: 2px;
     top: 130px;
-    
 }
+
 .name-quot {
     text-align: right;
     padding: 7px 0 33px;
     font-weight: normal;
     font-size: 14px;
-    line-height: 21px; 
-
+    line-height: 21px;
 }
+
 .bloc-text {
     display: flex;
-    justify-content: space-between;
+    column-gap: 26px;
 }
+
+.img-quot {
+    align-self: baseline;
+}
+
 .text-quot {
-    width: 850px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
     color: #000000;
-
 }
