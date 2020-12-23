@@ -277,7 +277,7 @@ body {
 
 .list-down {
     list-style: none;
-    color :#8C8C8C;
+    color: rgba(255, 255, 255, 0.5);
     
 }
 
@@ -326,7 +326,41 @@ body {
     align-items: center;
     column-gap: 10px;
 }
-
+.shape{
+    width: 427px;
+    height: 350px;
+}
 ::placeholder {
     color: #ffffff;
-  }
+}
+img {
+    max-width: 100%;
+}
+ul,
+ol {
+    padding: 0;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+}
+
+a:not {
+text-decoration-skip-ink: auto;
+}
+
+input,
+button,
+textarea,
+select {
+font: inherit;
+margin: 0;
+}

@@ -1,60 +1,98 @@
-.slider{
-    align-self: center;
+.slider {
+    position: relative;
+}   
+
+.slider-2 {
+    position: relative;
 }
+
 .head-view {
     width: 100%;
+    position: relative;
+}
+
+.absolute {
+    max-width: none;
+    position: absolute;
+    bottom: 120px;
+}
+ 
+.absolute-2 {
+    max-width: none;
+    position: absolute;
+    bottom: 120px;
+    right: 2px;
+    
 }
 
 .head-new {
     display: flex;
     justify-content: space-between;
-    padding: 45px 0 21px;
+    padding: 37px 0 21px;
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    align-items: center;
+    
 }
+
 .head-new-2{
     font-size: 13px;
     line-height: 115%;
     text-decoration-line: underline;
+    font-style: normal;
+    font-weight: normal;
+
 }
+
 .white {
     background-color: #FFFFFF;
 }
+
 .text-product {
-    padding: 7px 35px 7px 0;
+    padding: 7px 0;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 19px;
 }
+
 .product-img {
     padding: 7px 0 10px;
+    display: flex;
+    justify-content: center;
+    
 }
+
 .old-price {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 140%;
+    line-height: 20px;
     text-decoration-line: line-through;
     font-style: normal;
-    color: #666666;;
+    color: #666666;
+} 
 
-}
 .new-price {
     padding: 10px 0;
-    font-size: 14px;
-    line-height: bold;
+    font-size: 18px;
     color: #000000;
+    font-style: normal;
+}
+.avilable{
+    display: flex;
+    align-items: center;
+
 }
 .instock {
     font-size: 10px;
     line-height: 210%;
     color: #78A962;
     padding-left: 6px;
+    
 }
 .prouducts {
     display: flex;
+    padding-bottom: 18px;
 
 }
 .check-availability {
@@ -99,20 +137,25 @@
     padding-right: 26px;
     text-decoration: underline #0156FF;
 }
-.category-soft{
+.line-product {
+    padding: 7px 27px 14px;
+}
+.category-soft {
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     color: #838383;
     padding-right: 26px;
 }
+
 .category {
     padding: 6px 0 24px 0;
 }
-.over-slide{
+
+.over-slide {
     position: absolute;
     top: 125px;
-    right: 68px;
+    right: 72px;
     left: 70px;
     font-style: normal;
     font-weight: bold;
@@ -121,6 +164,7 @@
     color: #FFFFFF; 
     text-align: center;
 }
+
 .over-slid {
     position: absolute;
     top: 291px;
@@ -133,11 +177,10 @@
 }
 .image-side {
     position: relative;
-    padding-right: 25px;
+    
 }
 .view {
     max-width: 100%;
-    display: flex;
     position: relative;
 }
 .reviews {
@@ -147,13 +190,7 @@
     line-height: 210%;
     color: #8C8C8C;
 }
-.over{
-    position: absolute;
-}
-.over-right{
-    position: absolute;
-    right: 2px;
-}
+
 .logos-home {
     display: grid;
     grid-template-columns: repeat(7 ,1fr);
@@ -182,7 +219,7 @@
     text-align: center;
     padding: 10px 0;
 }
-.cards{
+.cards {
     display: grid;
     grid-template-columns: repeat(6 ,1fr);
     padding-bottom: 37px;
@@ -196,9 +233,8 @@
     line-height: 15px;
     color: #8C8C8C;
 }
-.quot-home{
+.quot-home {
     background: #F5F7FF;
-    width: 1160px;
     padding: 49px 119px;
 }
 .bloc-button {
@@ -215,15 +251,24 @@
     border: 2px solid #0156FF;
     border-radius: 50px;
     cursor: pointer;
+    background: transparent;
 }
-
+.position-img {
+    position: absolute;
+    bottom: 121px;
+}
+.position-img-1 {
+    position: absolute;
+    right: 2px;
+    top: 130px;
+    
+}
 .name-quot {
     text-align: right;
     padding: 7px 0 33px;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px; 
-
 
 }
 .bloc-text {

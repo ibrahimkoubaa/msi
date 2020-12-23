@@ -1,10 +1,10 @@
-.under-header{
+.under-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px 0 30px 0;
+    padding: 19px 0 5px;
     align-items: baseline;
 }
-.right-under{
+.right-under {
     display: flex; 
     align-items: center;
     
@@ -23,12 +23,12 @@
 .home-cat-1 {
     color: #666666;
 }
-.bold-cta{
+.bold-cta {
     color: #000000;
     margin-right: 20px;
       
 }
-.box-one{
+.box-one {
     padding: 12px 20px 12px 10px;
     background: #ffffff;
     font-style: normal;
@@ -42,16 +42,16 @@
     margin-right: 11px;
     cursor: pointer;
 }
-.list-view{
+.list-view {
     margin-right: 19px;
 }
-.item-under{
+.item-under {
     font-weight: normal;
     font-size: 13px;
     line-height: 210%;
     color: #8C8C8C;
 }
-.cta-back{
+.cta-back {
     padding: 12px 100px 12px 100px;
     background: #ffffff;
     font-style: normal;
@@ -62,19 +62,22 @@
     border: none;
     margin-right: 11px;
 }
-.back{
+.back {
     margin-left: 10px;
 }
-.filters{
+.filters {
     text-align: center;
     padding: 10px 0px;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
 }
+img {
+    max-width: none;
+}
 .cta-filter {
     color: #666666;
-    padding: 7px 70px 7px 70px;
+    padding: 8px 68px;
     background: #F5F7FF;
     font-style: normal;
     font-weight: 600;
@@ -102,7 +105,7 @@
 .arrow-cate {
     margin-left: 166px
 }
-.category-item{
+.category-item {
     display: flex;
     justify-content: space-between;
     font-weight: normal;
@@ -111,7 +114,7 @@
     color: #000000;
     padding-top: 6px;
 }
-.apply-filter{
+.apply-filter {
     background: #0156FF;
     border-radius: 50px;
     color: #ffffff;
@@ -122,7 +125,7 @@
     line-height: 21px;
     cursor: pointer;
 }
-.cta-apply{
+.cta-apply {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -156,26 +159,26 @@
     padding: 13px;
     border: 1px solid #CCCCCC;
 }
-.logo-marques{
+.logo-marques {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 7px;
 }
-.wish-list{
+.wish-list {
     font-weight: normal;
     font-size: 13px;
     line-height: 130%;
     padding: 10px 0;
 
 }
-.sides{
+.sides {
     display: flex;
 }
 .barre {
     display: flex;
     
 }
-.border{
+.border {
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 2px;
@@ -184,7 +187,7 @@
     display: flex;
     align-items: center;
 }
-.border-one{
+.border-one {
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 2px;
@@ -201,24 +204,26 @@
     color: #8C8C8C;
 }
 .product {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 45px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
     margin: 20px 0 15px 6px;
     padding: 8px 30px 36px 53px;
-    height: 330px;
+    
 }
 .read-more {
     padding: 25px 0 60px;
     text-align: center;
 }
-.text-read-more{
+.text-read-more {
     color: #8C8C8C;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
 }
-.cta-more{
+.cta-more {
     color: #8C8C8C;
     border-radius: 50px;
     border: 2px solid #8C8C8C;
@@ -229,8 +234,8 @@
     padding: 8px 26px;
     
 }
-.text-product{
-    padding: 60px 61px 0 53px;
+.text-product {
+    align-self: end;
 }
 .para-product {
     width: 346px;
@@ -240,7 +245,7 @@
     line-height: 19px;
     padding-bottom: 16px;
 }
-.button-more{
+.button-more {
     text-align: center;
     padding: 25px 0 35px;
 
@@ -252,7 +257,7 @@
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
-    padding-top: 21px;
+    padding-bottom: 21px;
 }
 .cta-product {
     background-color: #ffffff;
@@ -268,7 +273,7 @@
 .icon-shop {
     padding-right: 6px;
 }
-.old-price{
+.old-price {
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
@@ -288,9 +293,7 @@
     padding-bottom: 51px;
 }
 .choices {
-    
-    width: 253px;
-    padding: 100px 50px 146px 0;
+    align-self: center;
     
 }
 .stars {
@@ -322,12 +325,15 @@
 }
 .stock {
     display: grid;
+    justify-content: end; 
 }
 .in-stock {
     justify-self: end;
 }
 .icons-stock {
     align-self: flex-end;
+    display: flex;
+    column-gap: 6px;
 }
 .stock-green {
     font-size: 10px;

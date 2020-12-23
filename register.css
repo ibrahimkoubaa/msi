@@ -3,25 +3,30 @@
     justify-content: center;
     column-gap: 34px;
     padding-bottom: 58px;
+} 
+
+::placeholder {
+    color: #8C8C8C;
 }
+
 .new-customer {
     background: #F5F9FF;
     padding: 37px 58px;
-    width: 564px;
+    width: 460px;
 }
+
 .register-customer {
     background: #F5F9FF;
-    padding: 37px 58px;
-    width: 564px;
+    padding: 37px 58px; 
 }
+
 .register-text {
     font-size: 14px;
     line-height: 21px;
     color: #666666;
     padding: 13px 0;
-    
-
 }
+
 .cta-sign {
     background: #0156FF;
     color: #ffffff;
@@ -32,9 +37,9 @@
     font-size: 14px;
     line-height: 21px;
     cursor: pointer;
-    margin: 19px 23px 19px 0;
-    
+    margin: 19px 23px 19px 0; 
 }
+
 .group-sign {
     display: flex;
     align-items: center;
@@ -43,9 +48,11 @@
 .list-register {
     padding-left: 10px;
 }
+
 .title-register {
     padding: 21px 0;
 }
+
 .main-title-register {
     padding-top: 19px;
 }

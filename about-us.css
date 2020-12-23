@@ -6,6 +6,9 @@
     color: #FFFFFF;
     padding: 128px 221px 128px 50px;
 }
+img {
+    max-width: none;
+}
 
 .right-about-white {
     color: #000000;
