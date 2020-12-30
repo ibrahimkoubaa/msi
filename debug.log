@@ -7,3 +7,11 @@
 [1221/000647.927:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
 [1223/182743.376:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
 [1223/184504.329:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1223/235141.890:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[1223/235141.890:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[1223/235141.875:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[1223/235141.890:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[1223/235141.922:ERROR:exception_snapshot_win.cc(99)] thread ID 3884 not found in process
+[1223/235141.922:ERROR:exception_snapshot_win.cc(99)] thread ID 1716 not found in process
+[1223/235141.922:ERROR:exception_snapshot_win.cc(99)] thread ID 10368 not found in process
+[1223/235141.922:ERROR:exception_snapshot_win.cc(99)] thread ID 2556 not found in process

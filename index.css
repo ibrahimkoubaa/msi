@@ -8,23 +8,22 @@
 
 .head-view {
     width: 100%;
-    position: relative;
-}
-
-.arrow-side-right {
-    max-width: none;
-    position: absolute;
-    bottom: 120px;
 }
 
 .arrow-side-left {
     max-width: none;
     position: absolute;
     bottom: 120px;
+}
+
+.arrow-side-right {
+    max-width: none;
+    position: absolute;
+    bottom: 120px;
     right: 2px;
 }
 
-.head-new {
+.new-head {
     display: flex;
     justify-content: space-between;
     padding: 37px 0 21px;
