@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 26px 0;
-    align-items: center;  
+    align-items: center;
 }
 
 .about-pro {
@@ -34,39 +34,20 @@
     line-height: 21px;
 }
 
-.input-num {
-    background: #EBEBEB;
-    border-radius: 6px;
-    width: 70px;
-    height: 50px;
-    margin-right: 20px;
-    border: none;
-}
-
-.but-cart {
+.add-cart {
     background: #0156FF;
     color: #ffffff;
     border: none;
-    border-radius: 50px;
     padding: 12px 45px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;
-    margin-right: 13px;   
-} 
+    margin-right: 13px;
+}
 
-.but-pay {
+.add-pay {
     background: #FFB800;
     color: #ffffff;
-    border: none;
-    border-radius: 50px;
     padding: 12px 45px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;   
-} 
+    border: none;
+}
 
 .arrow-b {
     color: blue;
@@ -80,9 +61,9 @@
 .pro-right {
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    padding-top: 74px;
+    grid-template-columns: 1fr 1.5fr 1fr;
     width: 90%;
+    padding: 62px 0;
 }
 
 .border-button {
@@ -95,8 +76,8 @@
 }
 
 .pro-left {
-    padding: 67px 120px 166px;
-} 
+    padding: 0 120px 166px;
+}
 
 .home-pro {
     font-weight: 400;
@@ -108,12 +89,13 @@
     font-weight: 200;
     font-size: 12px;
     line-height: 18px;
+    color: rgba(149, 149, 149);
 }
 
 .title-pro {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 32px;
-    line-height: 48px;    
+    line-height: 48px;
     padding: 25px 0 13px 0;
 }
 
@@ -157,7 +139,7 @@
     line-height: 18px;
     color: #0156FF;
     text-decoration: underline;
-    text-decoration-color:#0156FF;
+    text-decoration-color: #0156FF;
 }
 
 .kind {
@@ -166,31 +148,32 @@
     line-height: 18px;
 }
 
-.more-info{    
+.more-info {
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
 }
 
-.all-left {
-    padding-bottom: 59px;
-}
-
 .icons-pro {
     display: flex;
     flex-direction: column;
-    justify-self: center;  
+    padding: 36px 0 0 23px;
 }
 
 .point-pro {
     justify-self: end;
     align-self: end;
-    margin-bottom: 59px;
+    column-gap: 11px;
+    display: flex;
 }
 
 .zip-pc {
     display: flex;
     align-items: center;
+}
+
+.font-learn {
+    font-size: 12px;
 }
 
 .zip-text {
@@ -217,6 +200,10 @@
     padding: 165px 0 55px 0;
 }
 
+.all-left {
+    padding: 62px 0;
+}
+
 .title-pc {
     font-weight: 500;
     font-size: 44px;
@@ -239,7 +226,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
-    opacity: 0.5;       
+    opacity: 0.5;
 }
 
 .pc-left {
@@ -253,7 +240,7 @@
 }
 
 .help {
-    background: linear-gradient(90deg, rgba(225,229,244,1) 0%, rgba(255,255,255,1) 49%, rgba(245,247,255,1) 100%);
+    background: linear-gradient(90deg, rgba(225, 229, 244, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(245, 247, 255, 1) 100%);
     display: flex;
     justify-content: center;
     position: relative;
@@ -262,17 +249,16 @@
 .border-help {
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
-    box-sizing: border-box;
     border-radius: 6px;
     width: 347px;
-    padding: 10px 10px;
+    padding: 10px 14px 10px 27px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .border-center {
@@ -295,7 +281,7 @@
     padding: 76px 0 60px 0;
 }
 
-.title-marques{
+.title-marques {
     font-weight: 500;
     font-size: 38px;
     line-height: 57px;
@@ -305,16 +291,16 @@
 .text-marques {
     font-weight: 300;
     font-size: 18px;
-    line-height: 26px; 
+    line-height: 26px;
     opacity: 0.5;
-    width: 20%; 
+    width: 20%;
 }
 
 .logo-marques {
-    display: flex;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
     padding-bottom: 104px;
-    column-gap: 47px;  
+    column-gap: 47px;
 }
 
 .logo-marq {
@@ -322,8 +308,7 @@
 }
 
 .text-logo {
-    padding-top: 28px;
-    width: 254px;
+    padding: 28px 43px 0;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -337,6 +322,5 @@
 
 .text-center {
     justify-content: center;
-    display: flex;  
+    display: flex;
 }
-

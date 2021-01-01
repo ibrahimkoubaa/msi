@@ -1,6 +1,6 @@
 .bloc-shop {
     display: flex;
-} 
+}
 
 .row-1 {
     text-align: left;
@@ -50,7 +50,7 @@
     padding-right: 26px;
 }
 
-.small-title{
+.small-title {
     padding-top: 21px;
 }
 
@@ -58,16 +58,7 @@
     width: 414px;
 }
 
-.input-num {
-    width: 70px;
-    height: 50px;
-    background: #EBEBEB;
-    border-radius: 6px;
-    text-align: center;
-    margin-right: 60px; 
-}
-
-.table { 
+.table {
     padding: 0 25px 25px 0;
 }
 
@@ -130,7 +121,7 @@
     font-weight: 400;
 }
 
-.para-shopping{
+.para-shopping {
     font-size: 14px;
     line-height: 21px;
     color: #666666;
@@ -152,7 +143,7 @@
     font-size: 14px;
     line-height: 21px;
     cursor: pointer;
-    margin-top: 19px;   
+    margin-top: 19px;
 }
 
 .border-shop {
@@ -198,12 +189,13 @@
     font-size: 14px;
     line-height: 21px;
     cursor: pointer;
-    margin-top: 19px; 
+    margin-top: 19px;
 }
 
 .title-shop-1 {
     padding-bottom: 29px;
 }
+
 .small-2 {
     padding: 21px 0 19px;
 }

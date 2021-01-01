@@ -1,6 +1,6 @@
 .title-contact-us {
     padding: 21px 0;
-} 
+}
 
 .main-title-contact {
     padding-top: 19px;
@@ -10,7 +10,7 @@
     padding: 31px 38px 74px;
     background: #F5F9FF;
     height: fit-content;
-    margin-left: 60px;   
+    margin-left: 60px;
 }
 
 .contact-us {
@@ -40,13 +40,11 @@
 .group-info {
     display: flex;
     padding-bottom: 20px;
-    
 }
 
 .text-info {
     display: grid;
     padding-left: 18px;
-    
 }
 
 .location-mark {
@@ -66,15 +64,17 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 30px;
-    
+    padding-bottom: 21px;
 }
 
-.first-input {
-    padding-right: 30px;
+.check-input {
+    flex: 1;
 }
 
 .group-input {
-    display: flex;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
 }
 
 ::placeholder {
@@ -85,7 +85,6 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    width: 97%;
     padding: 8px 10px;
 }
 
@@ -97,11 +96,6 @@
     background: #0156FF;
     color: #ffffff;
     border: none;
-    border-radius: 50px;
     padding: 12px 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;
-    margin-top: 16px;   
+    margin-top: 16px;
 }

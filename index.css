@@ -68,7 +68,7 @@
 }
 
 .new-price {
-    padding: 10px 0;
+    padding: 6px 0;
     font-size: 18px;
     color: #000000;
     font-style: normal;
@@ -98,7 +98,7 @@
     padding-left: 6px;
 }
 
-.half {
+.zip-barre {
     display: flex;
     justify-content: center;
     padding: 24px 0;
@@ -106,11 +106,11 @@
     margin-bottom: 14px;
 }
 
-.zip {
+.image-zip {
     margin-right: 14px;
 }
 
-.text-half {
+.text-zip {
     font-weight: normal;
     font-size: 18px;
     line-height: 120.5%;
@@ -121,13 +121,9 @@
     font-weight: bold;
 }
 
-.learn-zip {
-    text-decoration-line: underline;
-}
-
-.product-line-2 {
+.product-line {
     display: flex;
-    padding-bottom: 31px;
+    padding-bottom: 40px;
 }
 
 .category-bold {
@@ -140,7 +136,7 @@
 }
 
 .line-product {
-    padding: 7px 27px 14px;
+    padding: 7px 25px 14px;
 }
 
 .category-soft {
@@ -157,9 +153,9 @@
 
 .over-slide {
     position: absolute;
-    top: 125px;
+    top: 140px;
     right: 72px;
-    left: 70px;
+    left: 64px;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -215,10 +211,6 @@
     padding-bottom: 21px;
 }
 
-.card-follow {
-    padding: 0 11px 20px 0;
-}
-
 .text-card {
     font-style: normal;
     font-weight: normal;
@@ -226,13 +218,15 @@
     line-height: 18px;
     color: #000000;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 28px;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding-bottom: 37px;
+    row-gap: 20px;
+    column-gap: 11px;
 }
 
 .date-card {
@@ -263,14 +257,9 @@
 }
 
 .cta-quot {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
     color: #0156FF;
     padding: 8px 26px;
     border: 2px solid #0156FF;
-    border-radius: 50px;
-    cursor: pointer;
     background: transparent;
 }
 

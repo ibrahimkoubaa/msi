@@ -1,23 +1,31 @@
 .bloc-login {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     column-gap: 34px;
     padding-bottom: 58px;
-} 
+}
 
 ::placeholder {
     color: #8C8C8C;
 }
 
+.old-customer {
+    justify-self: end;
+}
+
 .new-customer {
-    background: #F5F9FF;
-    padding: 37px 58px;
-    width: 460px;
+    justify-self: start;
+}
+
+.colored-start {
+    margin-left: 5px;
 }
 
 .register-customer {
     background: #F5F9FF;
-    padding: 37px 58px; 
+    padding: 37px 58px;
+    width: 65%;
 }
 
 .register-text {
@@ -31,13 +39,8 @@
     background: #0156FF;
     color: #ffffff;
     border: none;
-    border-radius: 50px;
     padding: 12px 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    cursor: pointer;
-    margin: 19px 23px 19px 0; 
+    margin: 19px 23px 19px 0;
 }
 
 .group-sign {

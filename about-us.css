@@ -6,23 +6,33 @@
     color: #FFFFFF;
     padding: 128px 221px 128px 50px;
 }
+
 img {
     max-width: none;
 }
 
 .right-about-white {
     color: #000000;
-    padding: 167px 92px 162px;  
+    padding: 167px 92px 162px;
 }
 
 .right-about-white-1 {
     color: #000000;
-    padding: 167px 55px 162px;  
+    padding: 167px 55px 162px;
+}
+
+.left-about-white {
+    padding: 62px 0;
+}
+
+.quot-about {
+    margin-bottom: 63px;
+    margin-top: 63px;
 }
 
 .left-about-1 {
     color: #FFFFFF;
-    padding: 128px 300px 128px 50px; 
+    padding: 128px 300px 128px 50px;
 }
 
 .left-about-2 {
@@ -65,11 +75,11 @@ img {
 }
 
 .white-bloc {
-    background-color: #ffffff;  
+    background-color: #ffffff;
 }
 
 .black-bloc {
-    background-color: #000000;   
+    background-color: #000000;
 }
 
 .gray-bloc {
@@ -110,7 +120,7 @@ img {
 .quot-cta {
     background-color: #ffffff;
     color: #0156FF;
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 50px;
     padding: 8px 26px;
     font-weight: 600;
@@ -118,6 +128,7 @@ img {
     line-height: 21px;
     cursor: pointer;
 }
+
 .point {
     padding-right: 5px;
 }
