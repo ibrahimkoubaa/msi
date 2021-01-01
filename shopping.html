@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="checkout.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap" rel="stylesheet">
-    <title>Msi</title>
+    <title>Msi/shopping</title>
 </head>
 
 <body>
@@ -21,9 +21,12 @@
                                 <span class="days">Mon-Thu:</span> 9:00 AM - 5:30 PM</span>
                     <img class="arrow-white-down" src="images/arrow-white-down.png" />
                 </div>
-                <span class="adress">Visit our showroom in 1234 Street Adress City Address, 1234
-                                    <span><a class="link-see" href="contact-us.html">Contact Us</a></span>
-                </span>
+                <div class="adress">
+                    <span>visit our showroom in 1234 Street Adress City Address, 1234</span>
+                    <span>
+                        <a class="link-see" href="contact-us.html">Contact Us</a>
+                    </span>
+                </div>
                 <div class="icons-black">
                     <span class="bloc-call">Call Us: (00) 1234 5678</span>
                     <a href="https://www.facebook.com/" alt="Facebook"><img class="face-white" src="images/face-white.png" /></a>
@@ -103,36 +106,44 @@
                         <th class="item-row">Subtotal</th>
                         <th class="item-row"></th>
                     </tr>
-                    <tr class="row-2">
-                        <td class="item-row-2 item-row inside-row"><img src="images/shop-desk.png" class="image-row" />
+                    <tr class="item-">
+                        <td class="item-row-2 item-row">
+                            <div>
+                                <img src="images/shop-desk.png" class="image-row" />
+                            </div>
                             <p class="para-row">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER, 32GB RAM, 1TB SSD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
                         </td>
                         <td class="item-row-1 item-row">$4,349.00</td>
                         <td class="item-row"> <input type="number" class="input-num" /></td>
                         <td class="item-row-1 item-row">$13,047.00</td>
                         <td class="item-row-3">
-                            <div><img src="images/the-x.png" /><img src="images/pen.png" /></div>
+                            <img class="none pointer" src="images/the-x.png" />
+                            <img class="none pointer" src="images/pen.png" />
                         </td>
                     </tr>
                     <tr class="row-2">
-                        <td class="item-row-2 item-row inside-row"><img src="images/shop-lap.png" class="image-row" />
+                        <td class="item-row-2 item-row inside-row">
+                            <div>
+                                <img src="images/shop-lap.png" class="image-row" />
+                            </div>
                             <p class="para-row">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER, 32GB RAM, 1TB SSD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
                         </td>
                         <td class="item-row-1 item-row">$4,349.00</td>
                         <td class="item-row"> <input type="number" class="input-num" /></td>
                         <td class="item-row-1 item-row">$13,047.00</td>
                         <td class="item-row-3">
-                            <div><img src="images/the-x.png" /><img src="images/pen.png" /></div>
+                            <img class="none pointer" src="images/the-x.png" />
+                            <img class="none pointer" src="images/pen.png" />
                         </td>
                     </tr>
                 </table>
                 <div class="buttons">
                     <div>
-                        <button class="continue-shopping-cta">Continue Shopping</button>
-                        <button class="clear-shopping-cta">Clear Shopping Cart</button>
+                        <button class="cta continue-shopping-cta">Continue Shopping</button>
+                        <button class="cta clear-shopping-cta">Clear Shopping Cart</button>
                     </div>
                     <div>
-                        <button class="clear-shopping-cta">Update Shopping Cart</button>
+                        <button class="cta clear-shopping-cta">Update Shopping Cart</button>
                     </div>
                 </div>
             </div>
@@ -146,18 +157,18 @@
                     <p class="para-shopping">Enter your destination to get a shipping estimate.</p>
                     <div class="check-input">
                         <h5 class="input-head">Country</h5>
-                        <select class="input">
+                        <select class="input-shopping">
                                 <option>Australia</option>
                                 <option>Serbia</option>
                             </select>
                     </div>
                     <div class="check-input">
                         <h5 class="input-head">State/Province</h5>
-                        <input class="input-right input-select-1" type="text" />
+                        <input class="input-right input-shop" type="text" />
                     </div>
                     <div class="check-input">
                         <h5 class="input-head">Zip/Postal Code</h5>
-                        <input class="input-right input-select-1" type="text" />
+                        <input class="input-right input-shop" type="text" />
                     </div>
                     <div>
                         <h4 class="input-head">Standard Rate</h4>
@@ -168,9 +179,9 @@
                     </div>
                     <div>
                         <h4 class="input-head">Pickup from store</h4>
-                        <div class="radio-group-1">
+                        <div class="radio-shop">
                             <input class="radio" type="radio" />
-                            <p class="radio-para-1">1234 Street Adress City Address, 1234</p>
+                            <p class="radio-para">1234 Street Adress City Address, 1234</p>
                         </div>
                     </div>
                     <div class="shopping-g">
@@ -179,9 +190,9 @@
                     </div>
                     <div class="check-input">
                         <h5 class="input-head">Enter discount code</h5>
-                        <input class="input-right input-select-1" type="text" placeholder="Enter Discount code" />
+                        <input class="input-right input-shop" type="text" placeholder="Enter Discount code" />
                     </div>
-                    <button class="cta-apply">Apply Discount</button>
+                    <button class="cta cta-apply">Apply Discount</button>
                 </div>
                 <div>
                     <div class="price-group">
@@ -192,7 +203,7 @@
                         <span>Shipping</span>
                         <span>$21.00</span>
                     </div>
-                    <p class="para-shopping">(Standard Rate - Price may vary depending on the item/destination. Shop Staff will contact you.)</p>
+                    <p class="para-shopping-small">(Standard Rate - Price may vary depending on the item/destination. Shop Staff will contact you.)</p>
                     <div class="price-group">
                         <span>Tax</span>
                         <span>$1.91</span>
@@ -206,9 +217,9 @@
                         <span class="bold-price">$13,068.00</span>
                     </div>
                 </div>
-                <a href="checkout.html" target="_blank"><button class="cta-proceed">Proceed to Checkout</button></a>
-                <a href="https://www.paypal.com/ma/home" target="_blank"><button class="cta-paypal"><span>Check out with</span><img src="images/pay.png" class="pay"></button></a>
-                <button class="cta-address">Check Out with Multiple Addresses</button>
+                <a href="checkout.html" target="_blank"><button class="cta cta-proceed">Proceed to Checkout</button></a>
+                <a href="https://www.paypal.com/ma/home" target="_blank"><button class="cta cta-paypal"><span>Check out with</span><img src="images/pay.png" class="pay"></button></a>
+                <button class="cta cta-address">Check Out with Multiple Addresses</button>
                 <div class="group-zip">
                     <img src="images/zip.png" />
                     <span class="text-zip">own it now, up to 6 months interest free learn more</span>
@@ -266,7 +277,7 @@
                 <ul class="list-down">
                     <li class="item-down"><a class="link-see-1" href="about-us.html">About Us</a></li>
                     <li class="item-down">About Zip</li>
-                    <li class="item-down"><a class="link-see-1" href="fq.html">Privacy Policy</a></li>
+                    <li class="item-down"><a class="link-see-1" href="terms-conditions.html">Privacy Policy</a></li>
                     <li class="item-down">Search</li>
                     <li class="item-down">Terms</li>
                     <li class="item-down">Orders and Returns</li>

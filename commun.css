@@ -98,6 +98,14 @@ body {
     cursor: pointer;
 }
 
+.search-icon {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
 .adress-bar {
     padding: 15px 0;
     font-weight: 600;
@@ -299,7 +307,7 @@ body {
     border-radius: 4px;
     padding: 15px 0 15px 5px;
     margin-bottom: 11px;
-    width: 565px;
+    width: 105%;
 }
 
 .input-right {
@@ -402,7 +410,7 @@ select {
 .quot-home {
     background: #F5F7FF;
     padding: 49px 119px;
-    max-width: 800px;
+    width: 58%;
     margin: 0 auto;
 }
 

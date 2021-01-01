@@ -9,8 +9,8 @@
 .our-info {
     padding: 31px 38px 74px;
     background: #F5F9FF;
-    height: fit-content;
     margin-left: 60px;
+    height: fit-content;
 }
 
 .contact-us {
@@ -22,6 +22,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    margin-bottom: 5px;
 }
 
 .detail-info {
@@ -86,6 +87,8 @@
     font-size: 14px;
     line-height: 20px;
     padding: 8px 10px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
 }
 
 .contact-us {
