@@ -13,13 +13,13 @@
 .arrow-side-left {
     max-width: none;
     position: absolute;
-    bottom: 120px;
+    bottom: 156px;
 }
 
 .arrow-side-right {
     max-width: none;
     position: absolute;
-    bottom: 120px;
+    bottom: 156px;
     right: 2px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .text-product {
-    padding: 7px 0;
+    padding: 7px 0 15px;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -68,7 +68,7 @@
 }
 
 .new-price {
-    padding: 6px 0;
+    padding-top: 6px;
     font-size: 18px;
     color: #000000;
     font-style: normal;
@@ -89,6 +89,12 @@
 .products {
     display: flex;
     padding-bottom: 18px;
+}
+
+@media screen and (max-width: 1410px) {
+    .products {
+        flex-wrap: wrap;
+    }
 }
 
 .check-availability {
@@ -126,6 +132,12 @@
     padding-bottom: 40px;
 }
 
+@media screen and (max-width: 1400px) {
+    .product-line {
+        flex-wrap: wrap;
+    }
+}
+
 .category-bold {
     font-style: normal;
     font-weight: 600;
@@ -136,7 +148,7 @@
 }
 
 .line-product {
-    padding: 7px 25px 14px;
+    padding: 7px 25px 0 23px;
 }
 
 .category-soft {
@@ -194,7 +206,7 @@
 
 .logos-home {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     padding-bottom: 42px;
 }
 
@@ -223,7 +235,7 @@
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(191px, 1fr));
     padding-bottom: 57px;
     row-gap: 20px;
     column-gap: 11px;

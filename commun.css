@@ -46,7 +46,7 @@ body {
     font-size: 14px;
     line-height: 21px;
     color: #000000;
-    padding: 25px 0;
+    padding: 25px 0 27px;
 }
 
 .up-header {
@@ -76,7 +76,7 @@ body {
 
 .icons-black {
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 
 .arrow-white-down {
@@ -87,7 +87,7 @@ body {
     background-color: #ffffff;
     color: #0156FF;
     border: 2px solid #0156FF;
-    padding: 8px 26px;
+    width: 150%;
 }
 
 .cta {
@@ -96,6 +96,7 @@ body {
     font-size: 14px;
     line-height: 21px;
     cursor: pointer;
+    padding: 8px 0;
 }
 
 .search-icon {
@@ -107,12 +108,11 @@ body {
 }
 
 .adress-bar {
-    padding: 15px 0;
+    padding: 15px 0 13px;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -131,6 +131,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .instagram-white {
@@ -256,6 +257,7 @@ body {
 
 .menu-footer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cta-footer {
@@ -335,11 +337,6 @@ body {
     display: flex;
     align-items: center;
     column-gap: 10px;
-}
-
-.shape {
-    width: 427px;
-    height: 350px;
 }
 
 ::placeholder {
