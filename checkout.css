@@ -29,11 +29,17 @@ body {
     padding-bottom: 0;
 }
 
+.group {
+    row-gap: 25px;
+    display: grid;
+}
+
 .cta-title {
     background-color: #ffffff;
     color: #0156FF;
     border: 2px solid #0156FF;
-    padding: 8px 60px;
+    padding: 8px 0;
+    width: 14em;
 }
 
 .group-price {
@@ -94,8 +100,8 @@ body {
 }
 
 .cta-check {
-    padding: 10px 70px;
-    margin-bottom: 87px;
+    padding: 10px 0;
+    width: 20%;
 }
 
 .radio-para {
@@ -130,27 +136,35 @@ body {
 
 .boxes {
     display: flex;
+    margin-bottom: 87px;
 }
 
+
+}
+@media screen and (max-width: 1000px) {
+    .boxes {
+        flex-wrap: wrap;
+        display: block;
+    }
+}
 .box-1 {
-    flex: 1.5;
+    flex: 2;
 }
-
 .box-2 {
     padding: 58px 0 0 30px;
+    flex: 1;
 }
-
 .image-shop {
     padding-bottom: 46px;
     text-align: center;
 }
-
 .shopping {
     background: #F5F7FF;
     padding: 30px;
-    width: 70%;
 }
-
+.shop-para {
+    width: 98%;
+}
 .title-shop {
     font-weight: 600;
     font-size: 24px;
@@ -158,47 +172,39 @@ body {
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 22px;
 }
-
 .head-shop {
     font-size: 14px;
     line-height: 21px;
     color: #666666;
 }
-
 .group-head {
     display: flex;
     justify-content: space-between;
     padding: 16px 0 22px 0;
     align-items: center;
 }
-
 .group-shop {
     font-size: 14px;
     line-height: 21px;
     display: flex;
-    padding-bottom: 25px;
 }
-
 .qty {
     font-size: 14px;
     line-height: 140%;
     color: #8C8C8C;
 }
-
 .qty-n {
     font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-weight: 600;
 }
-
 .price-dollar {
     font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-weight: 600;
 }
-
 .group-para {
     padding-left: 15px;
     font-style: normal;

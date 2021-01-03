@@ -184,7 +184,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 63px 45px;
+    padding: 63px 0;
 }
 
 .image-card {
@@ -233,15 +233,15 @@ body {
 }
 
 .left-up {
-    padding: 47px 0;
     flex: 1;
 }
 
 .right-up {
-    padding: 72px 0;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     column-gap: 23px;
+    flex: 0.7;
+    align-items: end;
 }
 
 .input-footer {
@@ -258,20 +258,22 @@ body {
 .menu-footer {
     display: flex;
     flex-wrap: wrap;
+    padding: 47px 0 45px;
 }
 
 .cta-footer {
     background: #0156FF;
     color: #ffffff;
     border: none;
-    padding: 20px 40px;
+    padding: 20px 0;
+    width: 100%;
 }
 
 .down-footer {
     color: #ffffff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     display: grid;
-    grid-template-columns: 1.5fr 2fr 1fr 1.5fr 2.5fr;
+    grid-template-columns: 1.2fr 1.7fr 1fr 1.5fr 2.3fr;
     padding-bottom: 36px;
     column-gap: 70px;
 }
@@ -444,9 +446,10 @@ select {
 
 .cta-quot {
     color: #0156FF;
-    padding: 8px 26px;
+    padding: 8px 0;
     border: 2px solid #0156FF;
     background: transparent;
+    width: 140%;
 }
 
 .name-quot {

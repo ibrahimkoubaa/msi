@@ -63,16 +63,25 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     width: 90%;
-    padding: 62px 0;
 }
 
 .border-button {
     border-bottom: 1px solid #CCCCCC;
 }
 
+.pro-bloc {
+    padding: 62px 0;
+}
+
 .background-pro {
     background: linear-gradient(to right, #F5F7FF, #F5F7FF, #ffffff);
     border-bottom: 1px solid #CCCCCC;
+}
+
+@media screen and (max-width: 1410px) {
+    .pro-bloc {
+        flex-wrap: wrap;
+    }
 }
 
 .pro-left {
@@ -191,6 +200,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 1400px) {
+    .pc-bloc {
+        flex-wrap: wrap;
+    }
+}
+
 .pc-right {
     display: flex;
     align-self: center;
@@ -198,10 +213,6 @@
 
 .all-left-pc {
     padding: 165px 0 55px 0;
-}
-
-.all-left {
-    padding: 62px 0;
 }
 
 .title-pc {
@@ -244,6 +255,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .border-help {
@@ -274,11 +286,12 @@
 .marques {
     background: radial-gradient(50% 50% at 50% 50%, #242528 0%, #040404 100%);
     color: #ffffff;
+    padding: 76px 0 104px;
 }
 
 .head-marques {
     text-align: center;
-    padding: 76px 0 60px 0;
+    padding-bottom: 60px;
 }
 
 .title-marques {
@@ -299,8 +312,13 @@
 .logo-marques {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
-    padding-bottom: 104px;
     column-gap: 47px;
+}
+
+@media screen and (max-width: 1400px) {
+    .logo-marques {
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    }
 }
 
 .logo-marq {

@@ -7,15 +7,18 @@
 }
 
 .our-info {
-    padding: 31px 38px 55px;
+    padding: 31px 38px 74px;
     background: #F5F9FF;
-    margin-left: 60px;
     height: fit-content;
+    display: grid;
+    row-gap: 20px;
 }
 
 .contact-us {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 123px;
+    flex-wrap: wrap;
 }
 
 .head-info {
@@ -41,7 +44,6 @@
 
 .group-info {
     display: flex;
-    padding-bottom: 20px;
 }
 
 .text-info {
@@ -90,10 +92,6 @@
     padding: 8px 10px;
     border: 1px solid #8C8C8C;
     border-radius: 4px;
-}
-
-.contact-us {
-    padding-bottom: 123px;
 }
 
 .cta-submit {

@@ -2,6 +2,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 1400px) {
+    .about-left {
+        flex-wrap: wrap;
+    }
+}
+
 .left-about {
     color: #FFFFFF;
     padding: 128px 221px 128px 50px;

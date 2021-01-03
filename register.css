@@ -1,9 +1,12 @@
 .bloc-login {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
     column-gap: 34px;
     padding-bottom: 58px;
+    display: flex;
+}
+
+.content {
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 ::placeholder {
@@ -25,7 +28,7 @@
 .register-customer {
     background: #F5F9FF;
     padding: 37px 58px;
-    width: 65%;
+    flex: 1;
 }
 
 .register-text {
