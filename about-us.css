@@ -5,6 +5,7 @@
 @media screen and (max-width: 1400px) {
     .about-left {
         flex-wrap: wrap;
+        row-gap: 20px;
     }
 }
 
